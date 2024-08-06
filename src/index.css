@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Styles par défaut */
+  .p-screen {
+    @apply px-7 md:px-6 lg:px-[156px] xl:px-[200px];
+  }
+
+  h1 {
+    @apply text-black text-[32px] font-normal font-serif leading-10;
+  }
+  h2 {
+    @apply text-black text-[28px] font-normal font-serif leading-9;
+  }
+  h3 {
+    @apply text-black text-2xl font-normal font-serif leading-loose;
+  }
+  h4 {
+    @apply text-black text-[22px] font-normal font-serif leading-7;
+  }
+  h5 {
+    @apply text-black text-base font-medium font-serif leading-normal tracking-tight;
+  }
+  h6 {
+    @apply text-black text-sm font-normal font-serif leading-tight tracking-tight;
+  }
+  p {
+    @apply text-black text-base font-normal font-serif leading-normal tracking-wide;
+  }
+
+  .btn-primary {
+    @apply inline-block items-center justify-center rounded-full bg-primary px-8 py-[10px] text-sm font-medium text-onPrimary transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring focus:ring-primary focus:ring-opacity-50;
+  }
+  .btn-border {
+    @apply inline-block rounded-full border border-primary px-8 py-[10px] text-sm font-medium text-primary transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring focus:ring-primary focus:ring-opacity-50;
+  }
+  .btn-text {
+    @apply inline-block rounded-full px-8 py-[10px] text-sm font-medium text-primary transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring focus:ring-primary focus:ring-opacity-50;
+  }
+  .btn-icon {
+    @apply flex items-center justify-between gap-4 rounded-full border border-primary bg-primary px-5 py-1 transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring focus:ring-primary focus:ring-opacity-50;
+  }
+
+  /* Styles pour le mode sombre */
+  .dark {
+    @apply bg-secondary-containerD text-secondary-onContainerD;
+  }
+  .dark .card {
+    @apply bg-background text-onPrimary-dark;
+  }
+  /* .dark {
+    @apply bg-backgroundDark text-textPrimaryDark;
+  } */
+  /* 
+  .dark h1,
+  .dark h2,
+  .dark h3,
+  .dark h4,
+  .dark h5,
+  .dark h6,
+  .dark p {
+    @apply text-textPrimaryDark;
+  }
+
+  .dark .btn-primary {
+    @apply bg-primary-dark text-onPrimary-dark;
+  }
+  .dark .btn-border {
+    @apply border-primary-dark text-primary-dark;
+  }
+  .dark .btn-text {
+    @apply text-primary-dark;
+  }
+  .dark .btn-icon {
+    @apply border-primary-dark bg-primary-dark;
+  } */
+}
