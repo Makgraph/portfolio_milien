@@ -8,7 +8,7 @@ import photoMak from "../../assets/photoMak.jpg";
 const Home: React.FC = () => {
   return (
     <section
-      className="p-screen pt-20 bg-secondary-containerL dark:bg-secondary-containerD"
+      className="p-screen pt-8 sm:pt-20 bg-secondary-containerL dark:bg-secondary-containerD"
       id="home"
     >
       {/* <div className="gap-y-28 container grid"> */}
