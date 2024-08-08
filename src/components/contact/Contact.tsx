@@ -137,6 +137,7 @@ const Contact: React.FC = () => {
                 name="email"
                 className="absolute top-0 left-0 w-full h-full border-[2px] bg-none text-black outline-none rounded-[12px] p-6 z-0 contact__form-input"
                 placeholder="Insert your email"
+                required
               />
             </div>
 
@@ -151,6 +152,7 @@ const Contact: React.FC = () => {
                   rows={10}
                   className="absolute top-0 left-0 w-full border-[2px] sm:text-base text-sm  text-black bg-none outline-none rounded-[12px] p-6 z-0 h-[11rem] resize-none contact__form-input"
                   placeholder="Write your project"
+                  required
                 ></textarea>
               </div>
             </div>
