@@ -141,7 +141,7 @@ const Header: React.FC = () => {
           weight="bold"
           color="#2F218F"
           className={`absolute top-4 right-4 cursor-pointer md:hidden ${
-            menuOpen ? "block" : "hidden"
+            menuOpen ? "block dark:text-primary-onContainerD" : "hidden"
           }`}
           onClick={() => setMenuOpen(false)}
         />
