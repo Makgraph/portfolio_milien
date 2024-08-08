@@ -113,7 +113,7 @@ const Header: React.FC = () => {
         <ul
           className={`fixed inset-0 bg-background p-6 flex flex-col items-center gap-4 text-sm font-serif text-black md:flex md:flex-row md:relative md:bg-transparent md:p-0 md:gap-8 ${
             menuOpen
-              ? "flex top-[45%] shadow-inner dark:bg-primary-containerD rounded-t-2xl rounded-b-none"
+              ? "flex top-[45%] shadow-inner dark:bg-primary-containerD rounded-t-[50px] rounded-b-none"
               : "hidden"
           }`}
         >
