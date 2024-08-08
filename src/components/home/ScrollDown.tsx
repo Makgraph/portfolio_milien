@@ -56,8 +56,11 @@ const ScrollDown: React.FC = () => {
         </svg>
       </div>
       <span className="ml-[2px] mr-1 home__scroll-name">Scroll Down</span>
-      {/* <i className="uil uil-arrow-down home__scoll-arrow"></i> */}
-      <ArrowDown size={14} weight="regular" color="#2F218F" className="" />
+      <ArrowDown
+        size={14}
+        weight="regular"
+        className="text-primary-onContainerL dark:text-primary-onContainerD"
+      />
     </a>
   );
 };

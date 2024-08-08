@@ -26,7 +26,7 @@ const ScrollToTopButton: React.FC = () => {
   return (
     <button
       onClick={handleClick}
-      className={`fixed bottom-[98px] sm:bottom-4 z-20 right-1 sm:right-4 p-2 bg-primary-default text-white rounded-full shadow-lg transition-opacity ${
+      className={`fixed bottom-28 sm:bottom-4 z-20 right-2 sm:right-4 p-2 bg-primary-default text-white rounded-full shadow-lg transition-opacity ${
         visible ? "opacity-100" : "opacity-0"
       }`}
       aria-label="Scroll to top"
