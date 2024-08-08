@@ -69,7 +69,7 @@ const Contact: React.FC = () => {
 
               <a
                 href="mailto:milienmakenson3@gmail.com"
-                className="inline-flex text-[14px] dark:text-onPrimary-dark sm:text-base items-center justify-center gap-x-1 transform transition-transform duration-300 group-hover:translate-x-1 contact__button"
+                className="inline-flex text-[14px] dark:text-onPrimary-dark pl-2 sm:text-base items-center justify-center gap-x-1 transform transition-transform duration-300 group-hover:translate-x-1 contact__button"
               >
                 Write me
                 <IonIcon
